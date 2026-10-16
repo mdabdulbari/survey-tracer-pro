@@ -1,7 +1,7 @@
 //! ATTDISP (ATTMODE, honoured by the display) and ATTSYNC.
 
-use cadcraft_doc::{Attrib, EntityKind, Handle, Space};
-use cadcraft_engine::Session;
+use warqacad_doc::{Attrib, EntityKind, Handle, Space};
+use warqacad_engine::Session;
 use serde_json::{Value, json};
 
 /// Make block `name` from what is in model space now (the objects are removed).
@@ -29,7 +29,7 @@ fn attribs(s: &Session, h: Handle) -> Vec<Attrib> {
 }
 
 fn segments(s: &Session) -> usize {
-    cadcraft_render::build(s.doc().unwrap(), &Space::Model, &cadcraft_render::Options::default()).segment_count()
+    warqacad_render::build(s.doc().unwrap(), &Space::Model, &warqacad_render::Options::default()).segment_count()
 }
 
 #[test]

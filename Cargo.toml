@@ -8,22 +8,22 @@ version = "0.7.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 rust-version = "1.90"
-repository = "https://github.com/storytold/cadcraft"
+repository = "https://github.com/mdabdulbari/survey-tracer-pro"
 
 [workspace.dependencies]
 # internal
-cadcraft-geom = { path = "crates/geom" }
-cadcraft-dxf = { path = "crates/dxf" }
-cadcraft-dwg = { path = "crates/dwg" }
-cadcraft-color = { path = "crates/color" }
-cadcraft-doc = { path = "crates/doc" }
-cadcraft-constraints = { path = "crates/constraints" }
-cadcraft-fonts = { path = "crates/fonts" }
-cadcraft-render = { path = "crates/render" }
-cadcraft-io = { path = "crates/io" }
-cadcraft-engine = { path = "crates/engine" }
-cadcraft-ui-egui = { path = "crates/ui-egui" }
-cadcraft-mcp = { path = "crates/mcp" }
+warqacad-geom = { path = "crates/geom" }
+warqacad-dxf = { path = "crates/dxf" }
+warqacad-dwg = { path = "crates/dwg" }
+warqacad-color = { path = "crates/color" }
+warqacad-doc = { path = "crates/doc" }
+warqacad-constraints = { path = "crates/constraints" }
+warqacad-fonts = { path = "crates/fonts" }
+warqacad-render = { path = "crates/render" }
+warqacad-io = { path = "crates/io" }
+warqacad-engine = { path = "crates/engine" }
+warqacad-ui-egui = { path = "crates/ui-egui" }
+warqacad-mcp = { path = "crates/mcp" }
 
 # foundation
 thiserror = "2"

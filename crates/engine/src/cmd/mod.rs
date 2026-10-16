@@ -47,8 +47,8 @@ pub mod helpers;
 pub mod machines;
 pub mod options;
 
-use cadcraft_doc::Handle;
-use cadcraft_geom::Vec2;
+use warqacad_doc::Handle;
+use warqacad_geom::Vec2;
 use serde::Serialize;
 use serde_json::Value;
 
